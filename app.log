@@ -1,0 +1,509 @@
+2025-09-04 17:02:50,403 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-09-04 17:02:50,424 [ERROR] Error code: 404 - {'error': {'message': 'The model `gpt-4` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-09-04 17:02:55,142 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-09-04 17:02:55,144 [ERROR] Error code: 404 - {'error': {'message': 'The model `gpt-4` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-09-04 17:05:11,032 [INFO] HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 400 Bad Request"
+2025-09-04 17:06:39,885 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-09-04 17:06:39,894 [ERROR] Error code: 404 - {'error': {'message': 'The model `gpt-4` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-09-04 21:04:21,028 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-09-04 21:04:21,111 [ERROR] Error code: 404 - {'error': {'message': 'The model `gpt-4` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-09-04 21:04:30,252 [INFO] HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 400 Bad Request"
+2025-09-04 21:08:21,509 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-04 21:08:21,512 [INFO] Retrying request to /chat/completions in 0.400214 seconds
+2025-09-04 21:08:22,385 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-04 21:08:22,386 [INFO] Retrying request to /chat/completions in 0.752069 seconds
+2025-09-04 21:08:23,303 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-04 21:08:23,308 [ERROR] Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-09-04 23:44:59,409 [ERROR] 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-04 23:45:57,868 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 422 Unprocessable Entity"
+2025-09-04 23:45:57,876 [ERROR] ReplicateError Details:
+title: Invalid version or not permitted
+status: 422
+detail: The specified version does not exist (or perhaps you don't have permission to use it?)
+2025-09-04 23:47:07,489 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 422 Unprocessable Entity"
+2025-09-04 23:47:07,495 [ERROR] ReplicateError Details:
+title: Invalid version or not permitted
+status: 422
+detail: The specified version does not exist (or perhaps you don't have permission to use it?)
+2025-09-04 23:59:40,233 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-04 23:59:40,293 [INFO] Generated ideas for 架空アーティスト with theme '夏の夜' and style '幻想的'
+2025-09-05 00:00:20,003 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 402 Payment Required"
+2025-09-05 00:00:20,017 [ERROR] ReplicateError Details:
+title: Insufficient credit
+status: 402
+detail: You have insufficient credit to run this model. Go to https://replicate.com/account/billing#billing to purchase credit. Once you purchase credit, please wait a few minutes before trying again.
+2025-09-05 00:05:53,287 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 402 Payment Required"
+2025-09-05 00:05:53,298 [ERROR] ReplicateError Details:
+title: Insufficient credit
+status: 402
+detail: You have insufficient credit to run this model. Go to https://replicate.com/account/billing#billing to purchase credit. Once you purchase credit, please wait a few minutes before trying again.
+2025-09-05 00:11:40,008 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-05 00:11:40,237 [INFO] Generated ideas for 無名時代から追ってる女性シンガー with theme '夜更け　一人時間' and style 'かわいい'
+2025-09-05 00:13:09,771 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 402 Payment Required"
+2025-09-05 00:13:09,783 [ERROR] ReplicateError Details:
+title: Insufficient credit
+status: 402
+detail: You have insufficient credit to run this model. Go to https://replicate.com/account/billing#billing to purchase credit. Once you purchase credit, please wait a few minutes before trying again.
+2025-09-05 00:13:35,578 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-05 00:13:35,632 [INFO] Generated ideas for 無名時代から追ってる女性シンガー with theme '夜更け　一人時間' and style 'かわいい'
+2025-09-05 00:19:04,759 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-05 00:19:04,877 [INFO] Generated ideas for 無名時代から追ってる女性シンガー with theme '夜更け　一人時間' and style '幻想的'
+2025-09-05 00:20:17,088 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 00:20:17,451 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 00:20:18,350 [ERROR] 'FileOutput' object has no attribute 'format'
+2025-09-05 00:33:45,354 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-05 00:33:45,388 [INFO] Generated ideas for 無名時代から追ってる女性シンガー with theme '夜更け　一人時間' and style 'かっこいい'
+2025-09-05 00:35:02,448 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 00:35:03,110 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 00:35:03,803 [ERROR] 'FileOutput' object has no attribute 'format'
+2025-09-05 00:48:47,840 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-05 00:48:48,047 [INFO] Generated ideas for 謎の四人組 with theme '秋の帰り道　謎' and style 'ポップ'
+2025-09-05 00:49:56,759 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 00:49:57,375 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 00:49:59,889 [INFO] Generated image with prompt: 夏の風をイメージしたプラスチックコップ
+2025-09-05 00:51:12,975 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 00:51:13,578 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 00:51:15,100 [INFO] Generated image with prompt: バンド名が印字されたプラスチックコップ
+2025-09-05 00:51:55,496 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 00:51:56,122 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 00:51:58,127 [INFO] Generated image with prompt: シンプルなシルバーバングル
+2025-09-05 00:52:51,979 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 00:52:52,335 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 00:52:54,179 [INFO] Generated image with prompt: 実写：バンドカラーの深いブルーのニット帽
+2025-09-05 00:53:35,264 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 00:53:36,039 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 00:53:36,173 [ERROR] NSFW content detected. Try running it again, or try a different prompt.
+2025-09-05 00:54:04,438 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 00:54:05,067 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 00:54:06,580 [INFO] Generated image with prompt: 実写：深緑のリストバンド単品
+2025-09-05 00:55:03,969 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 00:55:04,534 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 00:55:06,107 [INFO] Generated image with prompt: 実写：くつろげる大きめ白いクッション
+2025-09-05 00:55:39,286 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 00:55:39,901 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 00:55:41,620 [INFO] Generated image with prompt: 実写：落ち葉の形のアクリルキーホルダー
+2025-09-05 01:10:12,431 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-05 01:10:12,489 [INFO] Generated ideas for 謎の四人組 with theme '秋の帰り道　謎' and style 'ポップ'
+2025-09-05 01:11:21,792 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 01:11:22,402 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 01:11:23,625 [INFO] Generated image with prompt: アクリルスタンド、実写風、学習机の上のグッズ画像
+2025-09-05 01:12:36,409 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 01:12:37,028 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 01:12:38,838 [INFO] Generated image with prompt: 「がんばって」とふきだし付きのメンバーのイラストのアクリルスタンド、実写風、掌の上のグッズ画像
+2025-09-05 01:13:33,697 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 01:13:34,292 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 01:13:35,410 [INFO] Generated image with prompt: バンド名が英字で印字されたアクリルキーホルダー、実写風、てのひらの上のグッズ画像
+2025-09-05 01:14:40,912 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 01:14:41,540 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 01:14:42,660 [INFO] Generated image with prompt: 夏の夜空をイメージしたイヤーカフ　控えめなパールとストーン付き、実写風、てのひらの上のグッズ画像
+2025-09-05 01:15:14,245 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 01:15:14,835 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 01:15:16,135 [INFO] Generated image with prompt: 控えめなパールとストーン付きのブレスレット、実写風、てのひらの上のグッズ画像
+2025-09-05 01:15:46,438 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 01:15:47,011 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 01:15:48,132 [INFO] Generated image with prompt: 控えめなパールとストーン付きのブレスレット、ふんわりpopなグラフィック、てのひらの上のグッズ画像
+2025-09-05 01:16:48,317 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 01:16:48,903 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 01:16:49,072 [ERROR] NSFW content detected. Try running it again, or try a different prompt.
+2025-09-05 01:17:13,177 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 01:17:13,394 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 01:17:14,523 [INFO] Generated image with prompt: シンプルなバンド名「nazoyonn」アクリルキーホルダー、popな3Dグラフィック、商品撮影風のグッズ画像
+2025-09-05 01:18:43,446 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 01:18:44,007 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 01:18:45,098 [INFO] Generated image with prompt: バンド名「nazoyonn」印字のボールペン、実写風、商品撮影風のグッズ画像
+2025-09-05 01:19:28,885 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 01:19:29,497 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 01:19:30,251 [INFO] Generated image with prompt: ポップなロゴ入りメモ帳、実写風、商品撮影風のグッズ画像
+2025-09-05 01:22:14,910 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 01:22:15,134 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 01:22:15,875 [INFO] Generated image with prompt: かわいい猫のキャラクターが笑顔でポーズしているアクリルキーホルダー、SDキャラ、白背景の商品画像のグッズ画像
+2025-09-05 01:23:41,215 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 01:23:41,834 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 01:23:43,195 [INFO] Generated image with prompt: 猫のキャラクターのアクリルキーホルダー、SDキャラ、ECサイトの商品画像風のグッズ画像
+2025-09-05 01:24:44,765 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 01:24:45,410 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 01:24:45,926 [INFO] Generated image with prompt: ハート形のアクリルキーホルダー、実写、ECサイトの商品画像風のグッズ画像
+2025-09-05 01:25:34,211 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 01:25:34,545 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 01:25:35,355 [INFO] Generated image with prompt: ゲームセンターによくありそうな犬のぬいぐるみキーホルダー、実写、ECサイトの商品画像風のグッズ画像
+2025-09-05 01:25:59,083 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 01:25:59,641 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/stability-ai/sdxl/versions/7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc "HTTP/1.1 200 OK"
+2025-09-05 01:26:00,624 [INFO] Generated image with prompt: ドット絵の男の子のラバーキーホルダー、実写、ECサイトの商品画像風のグッズ画像
+2025-09-05 13:15:14,267 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-05 13:15:14,399 [INFO] Generated ideas for 架空アーティスト with theme '秋の帰り道　謎' and style 'ポップ'
+2025-09-05 13:17:21,365 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 13:17:22,056 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 13:17:22,087 [ERROR] 'FileOutput' object is not subscriptable
+2025-09-05 13:22:55,796 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-05 13:22:55,978 [INFO] Generated ideas for 架空アーティスト with theme '秋の帰り道　謎' and style 'シンプル'
+2025-09-05 13:25:22,606 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 13:25:23,297 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 13:25:27,999 [INFO] Generated image with prompt: スマホケース、実写風、ポップなな雰囲気の商品写真風。ヴィレヴァン風で使いやすそうなポケット付きのものにして
+
+2025-09-05 13:25:47,414 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 13:25:48,071 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 13:25:49,043 [INFO] Generated image with prompt: スマホケース、実写風、ポップなな雰囲気の商品写真風。ヴィレヴァン風で使いやすそうなポケット付きのものにして
+
+2025-09-05 13:27:19,829 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 13:27:20,470 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 13:27:21,685 [INFO] Generated image with prompt: アクリルキーホルダー、実写風、ポップなな雰囲気の商品写真風。ヴィレヴァン風に売ってそうなおしゃれでコミカルに、青い色がいいです。
+2025-09-05 13:44:34,933 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 13:44:35,571 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 13:44:36,649 [INFO] Generated image with prompt: ブレスレット、実写風、レトロな雰囲気の商品画像。ヴィレヴァン風のおしゃれなデザインで、パール付きのものにして
+。金属の質感、重厚感、冷たい光沢 商品写真風、ECサイト風
+2025-09-05 13:51:47,149 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 13:51:47,497 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 13:51:48,318 [INFO] Generated image with prompt: ショルダーバッグ、実写風、かっこいい　スタイリッシュな雰囲気の商品画像。スポーティな感じも残しつつ、ライブに持っていけるようなおしゃれな感じのコンパクトな感じにして。柔らかい布素材、縫い目が見える、ぬいぐるみ風 グッズ、商品写真風、ECサイト風
+2025-09-05 13:52:07,141 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 13:52:07,755 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 13:52:08,694 [INFO] Generated image with prompt: ショルダーバッグ、実写風、かっこいい　スタイリッシュな雰囲気の商品画像。スポーティな感じも残しつつ、ライブに持っていけるようなおしゃれな感じのコンパクトな感じにして。 グッズ、商品写真風、ECサイト風
+2025-09-05 13:53:11,047 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 13:53:11,665 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 13:53:13,081 [INFO] Generated image with prompt: ピンバッジ、実写風、かっこいい　スタイリッシュな雰囲気の商品画像。バッグに着けるとシンプルながらもおしゃれに映えるように
+。光沢のあるプラスチック素材、軽量 グッズ、商品写真風、ECサイト風
+2025-09-05 13:56:44,175 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 13:56:44,861 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 13:56:45,761 [INFO] Generated image with prompt: アクリルキーホルダー、実写風、ポップな雰囲気の商品画像。バッグに着けるとシンプルながらもおしゃれに映えるように
+。透明なアクリル素材、平面、印刷された グッズ、商品写真風、ECサイト風
+2025-09-05 14:00:56,022 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:00:56,373 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:00:57,186 [INFO] Generated image with prompt: キーホルダー、実写風、ポップな雰囲気の商品画像。シンプルで普段のバッグにも付けやすい感じで。色は青色にして。透明なアクリル素材、平面、印刷された グッズ、商品写真風、ECサイト風
+2025-09-05 14:02:01,110 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:02:01,715 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:02:02,476 [INFO] Generated image with prompt: マグカップ、実写風、ポップな雰囲気の商品画像。大き目で北欧風のプリントがしてあるマグカップにして。滑らかな陶器の質感、丸みのある形状 グッズ、商品写真風、ECサイト風
+2025-09-05 14:02:26,640 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-05 14:02:26,668 [INFO] Generated ideas for ヨルシカ with theme '夏の暮れ　夜' and style 'シンプル'
+2025-09-05 14:03:13,606 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-05 14:03:13,623 [INFO] Generated ideas for ヨルシカ with theme '夏の暮れ　夜' and style 'シンプル'
+2025-09-05 14:03:57,371 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:03:58,182 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:03:59,099 [INFO] Generated image with prompt: ポーチ、実写風、シンプルな雰囲気の商品画像。月の満ち欠けのデザインがしてあるビニールポーチ。 グッズ、商品写真風、ECサイト風
+2025-09-05 14:05:21,772 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-05 14:05:21,836 [INFO] Generated ideas for ヨルシカ with theme '夏の暮れ　夜' and style 'シンプル'
+2025-09-05 14:06:21,688 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:06:22,601 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:06:23,782 [INFO] Generated image with prompt: スマホケース、実写風、な雰囲気の商品画像。星座モチーフのスマートフォンケース：各星座ごとのデザインがプリントされたシンプルなスマートフォンケース。夜空をイメージしたデザインで、オシャレなアクセサリーとしても楽しめます。。光沢のあるプラスチック素材、軽量 グッズ、商品写真風、ECサイト風
+2025-09-05 14:07:22,165 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:07:22,849 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:07:23,875 [INFO] Generated image with prompt: 小物入れ、実写風、な雰囲気の商品画像。星座モチーフ小物入れ：各星座ごとのデザインがプリントされたシンプルなスマートフォンケース。夜空をイメージしたデザインで、オシャレなインテリアとしても楽しめます。。光沢のあるプラスチック素材、軽量 グッズ、商品写真風、ECサイト風
+2025-09-05 14:15:52,651 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 202 Accepted"
+2025-09-05 14:15:53,354 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:15:54,432 [INFO] HTTP Request: GET https://api.replicate.com/v1/predictions/cazsykm3v1rmc0cs316a77wa2w "HTTP/1.1 200 OK"
+2025-09-05 14:15:55,212 [INFO] HTTP Request: GET https://api.replicate.com/v1/predictions/cazsykm3v1rmc0cs316a77wa2w "HTTP/1.1 200 OK"
+2025-09-05 14:15:55,991 [INFO] HTTP Request: GET https://api.replicate.com/v1/predictions/cazsykm3v1rmc0cs316a77wa2w "HTTP/1.1 200 OK"
+2025-09-05 14:15:56,773 [INFO] HTTP Request: GET https://api.replicate.com/v1/predictions/cazsykm3v1rmc0cs316a77wa2w "HTTP/1.1 200 OK"
+2025-09-05 14:15:57,787 [INFO] Generated image with prompt: アクリルキーホルダー、実写風、レトロな雰囲気の商品画像。英語のロゴの赤いキーホルダー。透明なアクリル素材、平面、印刷された グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 14:16:20,190 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:16:20,833 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:16:21,771 [INFO] Generated image with prompt: アクリルキーホルダー、3Dグラフィック風、レトロな雰囲気の商品画像。英語のロゴの赤いキーホルダー。透明なアクリル素材、平面、印刷された グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 14:16:41,666 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:16:41,902 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:16:42,844 [INFO] Generated image with prompt: アクリルキーホルダー、ラフ画風、レトロな雰囲気の商品画像。英語のロゴの赤いキーホルダー。透明なアクリル素材、平面、印刷された グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 14:17:18,716 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:17:19,323 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:17:20,215 [INFO] Generated image with prompt: アクリルキーホルダー、ラフ画風、かわいいな雰囲気の商品画像。英語のロゴの赤いキーホルダー。透明なアクリル素材、平面、印刷された グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 14:17:41,420 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:17:42,065 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:17:42,763 [INFO] Generated image with prompt: アクリルキーホルダー、ラフ画風、かわいいな雰囲気の商品画像。。透明なアクリル素材、平面、印刷された グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 14:17:57,348 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:17:57,563 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:17:58,230 [INFO] Generated image with prompt: コップ、ラフ画風、かわいいな雰囲気の商品画像。。透明なアクリル素材、平面、印刷された グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 14:18:15,049 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:18:15,735 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:18:16,473 [INFO] Generated image with prompt: コップ、実写風、かわいいな雰囲気の商品画像。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 14:19:22,694 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:19:23,311 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:19:24,261 [INFO] Generated image with prompt: ヘアピン、実写風、かわいいな雰囲気の商品画像。ビジュー付きのかわいい感じのヘアピンにして。
+。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 14:25:25,579 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:25:26,274 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:25:27,743 [INFO] Generated image with prompt: ぬいぐるみ、実写風、かわいいな雰囲気の商品画像。小さめのふわふわした猫のぬいぐるみ。オレンジ色
+。柔らかい布素材、縫い目が見える、衣類、アパレル、小物 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 14:25:47,936 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:25:48,573 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:25:49,559 [INFO] Generated image with prompt: ぬいぐるみ、実写風、かわいいな雰囲気の商品画像。ぬいぐるみ。オレンジ色
+。柔らかい布素材、縫い目が見える、衣類、アパレル、小物 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 14:26:40,888 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:26:41,250 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:26:42,151 [INFO] Generated image with prompt: ぬいぐるみ、実写風、な雰囲気の商品画像。オレンジ色のぬいぐるみ。柔らかい布素材、縫い目が見える、衣類、アパレル、小物 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 14:27:13,748 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:27:13,959 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:27:14,906 [INFO] Generated image with prompt: ぬいぐるみ、実写風、レトロな雰囲気の商品画像。オレンジ色のぬいぐるみ。柔らかい布素材、縫い目が見える、衣類、アパレル、小物 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 14:28:56,091 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:28:56,499 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:28:57,427 [INFO] Generated image with prompt: リストバンド、実写風、スポーティな雰囲気の商品画像。オレンジ色の★柄のリストバンド。 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 14:31:33,443 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:31:34,187 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:31:34,973 [INFO] Generated image with prompt: ぬいぐるみ、実写風、スポーティな雰囲気の商品画像。オレンジ色の★柄のぬいぐるみ。 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 14:33:04,805 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:33:05,152 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:33:06,088 [INFO] Generated image with prompt: マグカップ、実写風、レトロな雰囲気の商品画像。おしゃれで大きめの紺色のマグカップ。滑らかな陶器の質感、丸みのある形状 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 14:34:20,025 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 14:34:20,618 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 14:34:21,306 [INFO] Generated image with prompt: キーホルダー、実写風、レトロな雰囲気の商品画像。おしゃれで紺色。透明なアクリル素材、平面、印刷された グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 14:46:39,673 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 422 Unprocessable Entity"
+2025-09-05 14:46:39,683 [ERROR] ReplicateError Details:
+title: Invalid version or not permitted
+status: 422
+detail: The specified version does not exist (or perhaps you don't have permission to use it?)
+2025-09-05 14:47:47,637 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 422 Unprocessable Entity"
+2025-09-05 14:47:47,646 [ERROR] ReplicateError Details:
+title: Invalid version or not permitted
+status: 422
+detail: The specified version does not exist (or perhaps you don't have permission to use it?)
+2025-09-05 14:56:06,464 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 422 Unprocessable Entity"
+2025-09-05 14:56:06,472 [ERROR] ReplicateError Details:
+title: Invalid version or not permitted
+status: 422
+detail: The specified version does not exist (or perhaps you don't have permission to use it?)
+2025-09-05 15:11:59,900 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:12:00,117 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:12:01,641 [INFO] Generated image with prompt: マグカップ、実写風、な雰囲気の商品画像。大き目の紺色のマグカップ。星のモチーフ柄。。滑らかな陶器の質感、丸みのある形状 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:12:52,091 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:12:52,472 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:12:53,384 [INFO] Generated image with prompt: キーホルダー、実写風、シンプルな雰囲気の商品画像。星のモチーフのキーホルダー
+。透明なアクリル素材、平面、印刷された グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:18:48,217 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 422 Unprocessable Entity"
+2025-09-05 15:18:48,231 [ERROR] ReplicateError Details:
+title: Invalid version or not permitted
+status: 422
+detail: The specified version does not exist (or perhaps you don't have permission to use it?)
+2025-09-05 15:22:27,160 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:22:28,064 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:22:29,101 [INFO] Generated image with prompt: 人形、実写風、かわいいな雰囲気の商品画像。マスコット風のみつあみヘアの女の子の人形。柔らかい布素材、縫い目が見える、衣類、アパレル、小物 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:24:52,614 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:24:53,551 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:24:54,452 [INFO] Generated image with prompt: キーホルダー、実写風、シンプルな雰囲気の商品画像。星のモチーフのキーホルダー
+。透明なアクリル素材、平面、印刷された グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:25:09,870 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:25:10,714 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:25:11,653 [INFO] Generated image with prompt: キーホルダー、3Dグラフィック風、シンプルな雰囲気の商品画像。星のモチーフのキーホルダー
+。透明なアクリル素材、平面、印刷された グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:25:26,250 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:25:27,099 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:25:27,989 [INFO] Generated image with prompt: キーホルダー、3Dグラフィック風、シンプルな雰囲気の商品画像。星型のキーホルダー
+。透明なアクリル素材、平面、印刷された グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:25:45,354 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:25:45,854 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:25:46,759 [INFO] Generated image with prompt: キーホルダー、ラフ画風、シンプルな雰囲気の商品画像。星型のキーホルダー
+。透明なアクリル素材、平面、印刷された グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:26:12,398 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:26:13,279 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:26:14,202 [INFO] Generated image with prompt: キーホルダー、実写風、ポップなな雰囲気の商品画像。星型のキーホルダー
+。透明なアクリル素材、平面、印刷された グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:26:32,518 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:26:32,848 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:26:33,563 [INFO] Generated image with prompt: キーホルダー、イラスト風、シンプルなな雰囲気の商品画像。星型のキーホルダー
+。透明なアクリル素材、平面、印刷された グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:26:49,588 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:26:49,919 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:26:50,810 [INFO] Generated image with prompt: キーホルダー、3Dグラフィック風、シンプルなな雰囲気の商品画像。星型のキーホルダー
+。透明なアクリル素材、平面、印刷された グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:27:20,228 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:27:21,107 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:27:21,740 [INFO] Generated image with prompt: コップ、3Dグラフィック風、シンプルなな雰囲気の商品画像。星柄のコップ
+。透明なアクリル素材、平面、印刷された グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:27:31,410 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:27:32,261 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:27:32,908 [INFO] Generated image with prompt: コップ、3Dグラフィック風、シンプルなな雰囲気の商品画像。星柄のコップ
+。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:29:42,348 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:29:42,707 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:29:43,829 [INFO] Generated image with prompt: コップ、実写風、シンプルなな雰囲気の商品画像。青色のコップ。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:30:09,321 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:30:09,650 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:30:10,742 [INFO] Generated image with prompt: キーホルダー、実写風、シンプルなな雰囲気の商品画像。青色。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:30:29,976 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:30:30,291 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:30:31,697 [INFO] Generated image with prompt: マスコット、実写風、シンプルなな雰囲気の商品画像。青色。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:31:08,078 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:31:08,421 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:31:09,356 [INFO] Generated image with prompt: マスコット、実写風、シンプルなな雰囲気の商品画像。青色のグッズ。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:31:33,137 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:31:34,099 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:31:34,822 [INFO] Generated image with prompt: ハートのキーホルダー、実写風、シンプルなな雰囲気の商品画像。青色のグッズ。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:31:53,529 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:31:54,406 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:31:55,339 [INFO] Generated image with prompt: スマホリング、実写風、シンプルなな雰囲気の商品画像。青色のグッズ。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:32:13,164 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:32:14,058 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:32:16,290 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:32:16,618 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:32:17,366 [INFO] Generated image with prompt: ショルダーバッグ、実写風、シンプルなな雰囲気の商品画像。青色のグッズ。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:32:39,402 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:32:39,620 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:32:40,821 [INFO] Generated image with prompt: 小物入れ、実写風、シンプルなな雰囲気の商品画像。青色のグッズ。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:32:45,905 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:32:46,539 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:32:47,852 [INFO] Generated image with prompt: 小物入れ、実写風、シンプルなな雰囲気の商品画像。青色のグッズ。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:43:15,019 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:43:15,265 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:43:16,224 [INFO] Generated image with prompt: マグカップ、実写風、シンプルなな雰囲気の商品画像。紺色の★柄のマグカップ。。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。。滑らかな陶器の質感、丸みのある形状 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:44:05,024 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:44:05,659 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:44:06,275 [INFO] Generated image with prompt: 、実写風、な雰囲気の商品画像。紺色のマグカップ。。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。。滑らかな陶器の質感、丸みのある形状 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:44:22,503 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:44:23,131 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:44:23,743 [INFO] Generated image with prompt: 、実写風、な雰囲気の商品画像。シンプルなマグカップ。。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。。滑らかな陶器の質感、丸みのある形状 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:44:42,605 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:44:43,119 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:44:44,023 [INFO] Generated image with prompt: 、実写風、な雰囲気の商品画像。シンプルなマグカップ。。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。。 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:44:58,577 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:44:59,256 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:45:00,136 [INFO] Generated image with prompt: 、実写風、な雰囲気の商品画像。シンプルな小物入れ
+。。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。。 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:49:36,914 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:49:37,509 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:49:38,505 [INFO] Generated image with prompt: キーホルダー、実写風、な雰囲気の商品画像。おしゃれな星形のキーホルダー。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。透明なアクリル素材、平面、印刷された グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:50:10,482 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:50:10,721 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:50:11,549 [INFO] Generated image with prompt: マグカップ、実写風、な雰囲気の商品画像。おしゃれな星柄。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。透明なアクリル素材、平面、印刷された グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:54:44,074 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:54:44,732 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:54:45,699 [INFO] Generated image with prompt: マグカップ、実写風、な雰囲気の商品画像。青色、星の柄のマグカップ。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。青の色を使用した。滑らかな陶器の質感、丸みのある形状 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:57:14,351 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:57:14,984 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:57:15,685 [INFO] Generated image with prompt: 置物、実写風、な雰囲気の商品画像。癒し系の置物。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:57:29,208 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:57:29,873 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:57:31,253 [INFO] Generated image with prompt: 置物、実写風、ポップなな雰囲気の商品画像。癒し系の置物。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:58:48,661 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:58:49,317 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:58:49,937 [INFO] Generated image with prompt: キャラクターグッズ、実写風、ポップなな雰囲気の商品画像。癒し系の置物。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 15:59:04,014 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 15:59:04,220 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 15:59:05,008 [INFO] Generated image with prompt: キャラクターグッズ、3Dグラフィック風、ポップなな雰囲気の商品画像。癒し系の置物。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:01:11,577 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-05 16:01:11,623 [INFO] Generated ideas for 謎の四人組 with theme '秋の帰り道　謎' and style 'ポップ'
+2025-09-05 16:02:06,465 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:02:07,103 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:02:07,963 [INFO] Generated image with prompt: 、実写風、な雰囲気の商品画像。 ミステリーキーホルダー: キュートでカラフルなデザインのキーホルダーに、謎解きに欠かせない鍵やルーペ、古びた地図などがモチーフとして描かれています。使いやすさと謎解きの楽しさを両立したキーホルダーです。。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:02:27,100 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:02:27,731 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:02:28,466 [INFO] Generated image with prompt: 、実写風、な雰囲気の商品画像。。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:04:00,316 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:04:00,929 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:04:01,608 [INFO] Generated image with prompt: おきもの、実写風、ポップなな雰囲気の商品画像。癒し系なおきもの。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:04:16,312 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:04:17,123 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:04:18,300 [INFO] Generated image with prompt: 置物、実写風、ポップなな雰囲気の商品画像。癒し系なおきもの。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:04:42,102 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:04:42,775 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:04:43,428 [INFO] Generated image with prompt: 置物、3Dグラフィック風、ポップなな雰囲気の商品画像。癒し系な置き物
+。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:05:00,513 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:05:01,253 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:05:01,879 [INFO] Generated image with prompt: 置物、実写風、な雰囲気の商品画像。癒し系な置き物
+。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:05:32,258 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:05:32,867 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:05:33,465 [INFO] Generated image with prompt: キャラクターグッズ、実写風、ポップなな雰囲気の商品画像。癒し系な置き物
+。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:06:34,456 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:06:35,058 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:06:35,720 [INFO] Generated image with prompt: キャラクターグッズ、3Dグラフィック風、ポップなな雰囲気の商品画像。癒し系なおきもの。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:06:59,300 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:07:00,049 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:07:00,777 [INFO] Generated image with prompt: キャラクターグッズ、実写風、ポップなな雰囲気の商品画像。癒し系な置き物。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:07:16,173 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:07:16,827 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:07:17,523 [INFO] Generated image with prompt: キャラクターグッズ、実写風、ポップなな雰囲気の商品画像。癒し系な置物。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:08:18,476 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:08:19,174 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:08:21,715 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:08:21,954 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:08:22,642 [INFO] Generated image with prompt: キャラクターグッズ、実写風、ポップなな雰囲気の商品画像。癒し系なおきもの。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:08:50,907 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:08:51,123 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:08:51,913 [INFO] Generated image with prompt: キャラクターもの、実写風、ポップなな雰囲気の商品画像。癒し系なフィギュア。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:09:08,502 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:09:09,142 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:09:09,781 [INFO] Generated image with prompt: キャラクターグッズ、実写風、ポップなな雰囲気の商品画像。癒し系なフィギュア。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:10:11,115 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:10:11,797 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:10:12,647 [INFO] Generated image with prompt: キャラクターもの、実写風、な雰囲気の商品画像。猫のキャラクターのフィギュア。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:10:46,003 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:10:46,218 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:10:47,038 [INFO] Generated image with prompt: キャラクターもの、実写風、な雰囲気の商品画像。癒し系の猫のキャラクターのフィギュア。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:11:04,302 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:11:04,939 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:11:05,550 [INFO] Generated image with prompt: キャラクターもの、実写風、な雰囲気の商品画像。バンドメンバーキャラクターのフィギュア。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:11:46,769 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:11:47,577 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:11:48,477 [INFO] Generated image with prompt: キャラクターもの、実写風、な雰囲気の商品画像。バンドメンバーのキャラクターのフィギュア。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:12:32,999 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-05 16:12:33,020 [INFO] Generated ideas for 謎の四人組 with theme '秋の帰り道　謎' and style 'ポップ'
+2025-09-05 16:13:29,372 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:13:30,040 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:13:31,311 [INFO] Generated image with prompt: キャラクターもの、実写風、な雰囲気の商品画像。バンドメンバーのフィギュア。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:14:30,661 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:14:31,293 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:14:31,900 [INFO] Generated image with prompt: キャラクターもの、実写風、な雰囲気の商品画像。バンドメンバーのフィギュア（男性）。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:15:17,701 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:15:17,936 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:15:18,927 [INFO] Generated image with prompt: キャラクターもの、実写風、な雰囲気の商品画像。バンドメンバーのアクリルキーホルダー。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:15:42,580 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:15:42,794 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:15:43,670 [INFO] Generated image with prompt: キャラクターもの、実写風、な雰囲気の商品画像。チェーン付きのキーホルダー。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:15:56,229 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:15:56,919 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:15:57,295 [INFO] Generated image with prompt: キャラクターもの、実写風、な雰囲気の商品画像。コップ。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:16:27,004 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:16:27,254 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:16:28,133 [INFO] Generated image with prompt: コップ、実写風、な雰囲気の商品画像。バンドメンバーのキャラクターが書かれているコップ。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:16:59,242 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:16:59,863 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:17:00,705 [INFO] Generated image with prompt: 箱型の小物入れ、実写風、な雰囲気の商品画像。バンドメンバーのキャラクターが書かれている小物入れ。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:17:32,515 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:17:32,867 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:17:33,517 [INFO] Generated image with prompt: キャラクターグッズ、実写風、ポップなな雰囲気の商品画像。バンドメンバーのキャラクターのフィギュア。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:17:44,402 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:17:45,034 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:17:45,667 [INFO] Generated image with prompt: キャラクターグッズ、実写風、ポップなな雰囲気の商品画像。バンドメンバーキャラクターのフィギュア。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:17:55,981 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:17:56,606 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:17:57,267 [INFO] Generated image with prompt: キャラクターグッズ、実写風、な雰囲気の商品画像。バンドメンバーキャラクターのフィギュア。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:21:47,932 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-05 16:21:47,985 [INFO] Generated ideas for 謎の四人組 with theme '秋の帰り道　謎' and style 'ポップ'
+2025-09-05 16:22:57,449 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:22:57,779 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:22:58,799 [INFO] Generated image with prompt: キャラクターグッズ、実写風、な雰囲気の商品画像。バンドメンバーキャラクターのフィギュア。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:23:27,144 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:23:27,520 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:23:28,157 [INFO] Generated image with prompt: キャラクターもの、3Dグラフィック風、な雰囲気の商品画像。バンドメンバーのキャラクターのフィギュア。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:23:47,596 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:23:48,227 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:23:48,878 [INFO] Generated image with prompt: キャラクターもの、3Dグラフィック風、な雰囲気の商品画像。バンドメンバーのキャラクターのフィギュア（人型）。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:24:29,019 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:24:29,664 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:24:30,316 [INFO] Generated image with prompt: キャラクターグッズ、実写風、な雰囲気の商品画像。バンドメンバーのフィギュア。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:24:43,589 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:24:44,220 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:24:44,880 [INFO] Generated image with prompt: キャラクターグッズ、実写風、な雰囲気の商品画像。バンドメンバーのキャラものフィギュア。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:25:05,735 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:25:05,949 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:25:06,733 [INFO] Generated image with prompt: キャラクターグッズ、実写風、な雰囲気の商品画像。バンドメンバーのソフビのフィギュア。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:25:49,422 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:25:50,078 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:25:50,746 [INFO] Generated image with prompt: ブレスレット、実写風、な雰囲気の商品画像。シンプルなハート柄のブレスレット。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:26:02,739 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:26:03,516 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:26:04,909 [INFO] Generated image with prompt: 腕輪、実写風、な雰囲気の商品画像。シンプルなハート柄のブレスレット。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:26:17,319 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:26:17,974 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:26:18,608 [INFO] Generated image with prompt: アクセサリー、実写風、な雰囲気の商品画像。シンプルなハート柄のブレスレット。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:26:30,421 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:26:31,024 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:26:32,080 [INFO] Generated image with prompt: アクセサリー、実写風、な雰囲気の商品画像。シンプルなブレスレット。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
+2025-09-05 16:26:56,687 [INFO] HTTP Request: POST https://api.replicate.com/v1/predictions "HTTP/1.1 201 Created"
+2025-09-05 16:26:57,333 [INFO] HTTP Request: GET https://api.replicate.com/v1/models/lucataco/realistic-vision-v5.1/versions/2c8e954decbf70b7607a4414e5785ef9e4de4b8c51d50fb8b8b349160e0ef6bb "HTTP/1.1 200 OK"
+2025-09-05 16:26:58,680 [INFO] Generated image with prompt: アクセサリー、実写風、な雰囲気の商品画像。青いピアス。これは販売用グッズの商品画像です。人物や風景ではありません。単体で写っていて白背景。商品写真風。青の色を使用した。光沢のあるプラスチック素材、軽量 グッズ、商品画像、商品写真風、ECサイト風、アーティストグッズ、ファングッズ
